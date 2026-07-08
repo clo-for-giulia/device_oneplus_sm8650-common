@@ -98,6 +98,10 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
     android.hardware.boot-service.qti.recovery
 
+# Passthrough charging
+PRODUCT_PACKAGES += \
+    BypassCharge
+
 # Camera
 TARGET_BUILD_DEVICE_AS_WEBCAM := true
 
