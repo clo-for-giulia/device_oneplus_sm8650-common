@@ -151,6 +151,7 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
+    vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff \
     IFAAService
 
 PRODUCT_COPY_FILES += \
