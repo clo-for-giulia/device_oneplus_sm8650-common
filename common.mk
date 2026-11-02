@@ -229,7 +229,8 @@ endif
 
 # IR
 ifneq ($(TARGET_IS_TABLET),true)
-$(call inherit-product, vendor/oneplus/ir/config.mk)
+$(call inherit-product-if-exists, vendor/oneplus/ir/ir.mk)
+$(call inherit-product-if-exists, vendor/oneplus/ir/config.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.oplus
@@ -516,7 +517,7 @@ PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink
 
 # Dolby
-$(call inherit-product, vendor/oneplus/dolby/config.mk)
+$(call inherit-product, vendor/sony/dolby/sonydolby.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8650-common/sm8650-common-vendor.mk)

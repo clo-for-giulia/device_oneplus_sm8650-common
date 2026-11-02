@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "clo-for-giulia/hardware_oplus",
+    "target_path": "hardware/oplus",
+    "branch": "calcite2",
+    "remote": "github"
+  },
+  {
+    "repository": "aosp-for-giulia/android_packages_apps_LunarisDolby",
+    "target_path": "packages/apps/LunarisDolby",
+    "branch": "16",
+    "remote": "github"
+  },
+  {
+    "repository": "clo-for-giulia/proprietary_vendor_sony_dolby",
+    "target_path": "vendor/sony/dolby",
+    "branch": "16",
+    "remote": "github"
+  },
+  {
+    "repository": "aosp-for-giulia/vendor_oneplus_ir",
+    "target_path": "vendor/oneplus/ir",
+    "branch": "16",
+    "remote": "github"
+  },
+  {
+    "repository": "clo-for-giulia/vendor_oplus_camera",
+    "target_path": "vendor/oplus/camera",
+    "branch": "calcite",
+    "remote": "github"
+  }
+]
