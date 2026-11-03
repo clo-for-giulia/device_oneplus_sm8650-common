@@ -47,7 +47,7 @@
 
     <!-- Delay in ms before invoking single tap gesture
          Should be set to dt2w max time / 2 when needed -->
-    <integer name="config_singleTapDelay">250</integer>
+    <integer name="config_singleTapDelay">0</integer>
 
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
