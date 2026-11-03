@@ -42,6 +42,9 @@
     <!-- Type of the tap sensor. Empty if tap is not supported. -->
     <string name="config_dozeTapSensorType" translatable="false">co.aospa.sensor.tap</string>
 
+    <!-- Type of the quick pickup sensor. Empty if quick pickup is not supported. -->
+    <string name="config_quickPickupSensorType" translatable="false">android.sensor.tilt_detector</string>
+
     <!-- Delay in ms before invoking single tap gesture
          Should be set to dt2w max time / 2 when needed -->
     <integer name="config_singleTapDelay">250</integer>
