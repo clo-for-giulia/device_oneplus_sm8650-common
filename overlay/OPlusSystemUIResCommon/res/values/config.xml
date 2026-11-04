@@ -12,7 +12,7 @@
     <integer name="config_keyguardMaxRefreshRate">60</integer>
 
     <!-- Charging info current divider, if needed -->
-    <integer name="config_currentInfoDivider" translatable="false">1</integer>
+    <integer name="config_currentInfoDivider" translatable="false">100</integer>
 
     <!-- FPSInfoService FPS node file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
