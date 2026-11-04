@@ -58,4 +58,9 @@
 
     <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
     <string name="config_dozeUdfpsLongPressSensorType" translatable="false">co.aospa.sensor.udfps</string>
+
+    <!-- Enable the AOSP pickup gesture; the AOSPA quick pickup sensor is
+         configured by config_quickPickupSensorType. -->
+    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_dozePickupGestureEnabled">true</bool>
 </resources>
